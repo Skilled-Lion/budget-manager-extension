@@ -14,7 +14,7 @@ $(function(){
         chrome.storage.sync.set({"total": 0}, function(){
             var notifOptions = {
                 type : "basic",
-                iconUrl: "./am_14.svg",
+                iconUrl: "am_14.svg",
                 title : "Total reset",
                 message : "Total has been set to reset"
             }

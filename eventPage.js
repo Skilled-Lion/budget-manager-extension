@@ -18,7 +18,7 @@ chrome.contextMenus.onClicked.addListener(function(clickData){
                     if(newTotal >= budget.limit){
                         var notifOptions = {
                             type : "basic",
-                            iconUrl: "./am_14.svg",
+                            iconUrl: "am_14.svg",
                             title : "limit reached",
                             message : "oops! looks like u reached ur limit"
                         }
